@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getajoke</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        body {
+            background-color: #ffd60a;
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="columns">
+            <div class="column is-two-fifths is-offset-4">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-2by2">
+                            <img src="https://images.wallpapersden.com/image/wxl-minion-laugh-wallpaper-hd_40143.jpg"
+                                alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="https://www.shutterstock.com/image-vector/high-quality-emoticon-on-white-260nw-1752491915.jpg"
+                                        alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">GET A JOKE</p>
+                                <p class="subtitle is-6">@ icanhazdadjoke</p>
+                            </div>
+                        </div>
+                        <div class="content" id="joke">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris.
+                        </div>
+                        <footer class="card-footer">
+                            <button class="button is-link is-rounded">Click For New Joke</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="getajoke.js"></script>
+</body>
+
+</html>
